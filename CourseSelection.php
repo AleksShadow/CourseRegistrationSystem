@@ -39,7 +39,7 @@ if (isset($_POST["SelSemester"])) {
                         // getting Weekly hours for selected semester
                         // WORKING WITH DATABASE
                          // Get semester dropdown list
-                         $dbConnection = parse_ini_file("Lab6.ini");
+                         $dbConnection = parse_ini_file("Project.ini");
                          extract($dbConnection);
 
                          // DB error handling
@@ -100,7 +100,7 @@ if (isset($_POST["submit"])) {
                         // WORKING WITH DATABASE
        
         
-                         $dbConnection = parse_ini_file("Lab6.ini");
+                         $dbConnection = parse_ini_file("Project.ini");
                          extract($dbConnection);
 
                          // DB error handling
@@ -135,7 +135,7 @@ if (isset($_POST["submit"])) {
         
         // WORKING WITH DATABASE
         // Get semester dropdown list
-        $dbConnection = parse_ini_file("Lab6.ini");
+        $dbConnection = parse_ini_file("Project.ini");
         extract($dbConnection);
 
         // DB error handling
@@ -193,7 +193,7 @@ if (isset($_POST["submit"])) {
 
                         // WORKING WITH DATABASE
                         // Get semester dropdown list
-                        $dbConnection = parse_ini_file("Lab6.ini");
+                        $dbConnection = parse_ini_file("Project.ini");
                         extract($dbConnection);
 
                         // DB error handling
