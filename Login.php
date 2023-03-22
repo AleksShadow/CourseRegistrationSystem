@@ -93,7 +93,7 @@ if (isset($_POST["submit"]))
     {
             // WORKING WITH DATABASE
             // Check user name and password from database
-            $dbConnection = parse_ini_file("Lab6.ini");
+            $dbConnection = parse_ini_file("Project.ini");
             extract($dbConnection);
             
             // DB error handling
